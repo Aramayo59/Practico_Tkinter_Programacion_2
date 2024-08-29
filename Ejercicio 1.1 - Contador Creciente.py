@@ -7,7 +7,6 @@ def incrementar():
     except Exception as e:
         print("Error al incrementar el contador")
 
-# Configuración de la ventana principal
 root = tk.Tk()
 root.title("Contador Creciente")
 root.geometry("500x300")  
