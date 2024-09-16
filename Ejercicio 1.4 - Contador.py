@@ -2,7 +2,7 @@ import tkinter as tk  # Importar la biblioteca tkinter para la interfaz gráfica
 
 # Función para incrementar el valor del contador en 1.
 def incrementar():
-    """Incrementa el valor del contador en 1."""
+    
     contador.set(contador.get() + 1)
 
 # Función para decrementar el valor del contador en 1.
