@@ -6,7 +6,7 @@ def calcular_factorial():
     try:
         n = int(n_var.get())  # Obtiene el valor de la variable n_var como entero
         n_factorial = math.factorial(n)  # Calcula el factorial usando la función math.factorial
-        factorial_var.set(f"Factorial({n}) = {n_factorial}")  # Muestra el resultado en la etiqueta
+        factorial_var.set("Factorial(" + str(n) + ") = " + str(n_factorial))  # Muestra el resultado en la etiqueta
     except ValueError:
         factorial_var.set("Ingrese un número válido.")  # Muestra un error si la entrada no es válida
 
